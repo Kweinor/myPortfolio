@@ -11,7 +11,7 @@ function MenuBar({darkMode, setDarkMode}) {
       
       {open && <MobileMenu setOpen={setOpen}/>}
           <div>
-                  <h1 className={`font-bold arvo-font text-xl ${darkMode? "text-[#503f82]" : "text-[#4f46e5]"} `}>tk<span className={`${darkMode? "text-[#050014]" : "text-[#1f2937]"}`}>quaynor</span>.</h1>
+                  <h1 className={`font-bold arvo-font text-xl ${darkMode? "text-[#503f82]" : "text-[#4f46e5]"} `}>tk<span className={`${darkMode? "text-[#9194a1]" : "text-[#1f2937]"}`}>quaynor</span>.</h1>
           </div>
           <div className='flex justify-between items-center gap-3'>
            <button
