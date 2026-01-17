@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+ body, #root {
+  height: 100%;
+  margin-top: 0;
+  padding: 0;
+
+}
+              /* optional */
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+.font-type {
+  font-family: 'Libre Baskerville', serif;
+}
+.font-type-2 {
+  font-family: 'Instrument Serif', serif;
+}
+.font-type-3 {
+  font-family: 'Outfit', sans-serif;
+}
+.caveat-font {
+  font-family: 'Caveat', cursive;
+}
+.allura-font {
+  font-family: 'Allura', cursive;
+}
