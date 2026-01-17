@@ -22,7 +22,7 @@ function MenuBar({darkMode, setDarkMode}) {
         {darkMode ? <FaSun size={13} /> : <FaMoon size={13} />}
       </button>
       <button onClick={() => setOpen(true)}>
-        <Menu size={26} />
+        <Menu size={26} className={`${darkMode? "text-[#9085ae]" : ""}`}/>
       </button>
       </div>
         </div>
