@@ -21,7 +21,7 @@ function Home({darkMode, setDarkMode}) {
       <p className='mt-3 text-center lg:text-left'>  I am a Fullstack Developer passionate about building modern, scalable, and user-friendly web applications. I enjoy working across both frontend and backend, turning complex problems into elegant solutions. </p>
       <div className='flex justify-center lg:-ml-82 gap-6 mt-6'>
         <button className={`${darkMode ? "bg-[#503f82] text-[#9194a1] transition hover:border hover:border-[#503f82] hover:text-[#503f82] hover:bg-transparent" : "bg-[#1e2a5a] hover:border hover:text-[#1e2a5a] hover:border-[#1e2a5a] hover:bg-transparent text-amber-50" } px-3 md:px-7 py-2 backdrop-blur-lg rounded-4xl`}><a   target="_blank"   rel="noopener noreferrer" href='/Timothy Quaynor CV.pdf'>Download CV</a></button>
-        <button className={`${darkMode ? "hover:bg-[#503f82] hover:text-white transition text-gray-600" : "border-[#503f82] text-[#503f82] hover:bg-[#1e2a5a] hover:text-white transition" } px-3 md:px-7 cursor-pointer py-2 backdrop-blur-lg border rounded-4xl `}>Hire Me</button>
+        <button className={`${darkMode ? "hover:bg-[#503f82] hover:text-white transition text-gray-600" : "border-[#503f82] text-[#503f82] hover:bg-[#1e2a5a] hover:text-white transition" } px-3 md:px-7 cursor-pointer py-2 backdrop-blur-lg border rounded-4xl `}> <a href={"#contact"}>Hire Me</a> </button>
       </div>
       </div>
     <figure className='mt-8 md:mt-18'>

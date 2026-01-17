@@ -40,7 +40,7 @@ function Service({darkMode}) {
         icon={service.icon}
         content={service.content}
         darkMode={darkMode}
-        color={`${darkMode? "text-[#9194a1]" :"text-[#4f46e5]"}`}
+        color={`${darkMode? "text-[#372863]" :"text-[#4f46e5]"}`}
         contactLink={"#contact"}
       />
     </div>

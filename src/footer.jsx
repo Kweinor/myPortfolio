@@ -22,7 +22,7 @@ function Footer({darkMode}){
             </div>
            </div>
            <div className="flex flex-col md:flex-row gap-5">
-           <div className="flex flex-col justify-between gap-1 w-50 -ml-40 md:ml-22">
+           <div className="flex flex-col justify-between gap-1 w-50 -ml-30 md:ml-22">
 
             <p className={`${darkMode? "text-[#473a6c]" :"text-blue-900"} font-bold text-xl` }>Quick Links</p>
             <a href="#home" className="scroll-smooth" >Home</a>
@@ -32,7 +32,7 @@ function Footer({darkMode}){
               <a href="#contact" className="scroll-smooth">Contact</a>
          
            </div>
-           <div className="flex flex-col justify-between gap-1 -ml-40 md:ml-22">
+           <div className="flex flex-col justify-between gap-1 -ml-30 md:ml-22">
             <p className={`${darkMode? "text-[#473a6c]" :"text-blue-900"} font-bold text-xl`}>Service</p>
             <p>UI/UX Design</p>
             <p>School Management</p>

@@ -139,7 +139,7 @@ function Contact({darkMode}) {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-[#272b53] hover:bg-[#272b53] cursor-pointer text-white py-3 rounded-lg transition"
+          className={`w-full ${darkMode? "bg-[#503f82]" : "bg-[#272b53] hover:bg-[#272b53]"} cursor-pointer text-white py-3 rounded-lg transition`}
         >
           {isSubmitting ? "Sending..." : "Send Message"}
         </button>

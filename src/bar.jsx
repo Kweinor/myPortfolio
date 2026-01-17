@@ -7,7 +7,7 @@ function MenuBar({darkMode, setDarkMode}) {
     const [open, setOpen] = useState(false);
   
     return(
-       <div className={`fixed top-0 left-0 right-0 z-50 ${darkMode?  "bg-[#050014]/70": "bg-amber-50/70"}  backdrop-blur-lg py-2 flex md:hidden justify-between items-center px-5`}>
+       <div className={`fixed top-0 left-0 right-0 z-50 ${darkMode?  "bg-[#050014]/70": "bg-amber-50/70"}  backdrop-blur-lg py-4 flex md:hidden justify-between items-center px-5`}>
       
       {open && <MobileMenu setOpen={setOpen}/>}
           <div>

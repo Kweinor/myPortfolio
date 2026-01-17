@@ -27,7 +27,7 @@ function ProjectCard({image, title, description, link, status, index, darkMode})
         className="w-full h-48 object-cover"
       />
       <div className="p-6">
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
+        <h3 className={`text-xl ${darkMode? "text-[#9194a1]" :"text-[#1e246b]"} font-semibold mb-2`}>{title}</h3>
         <p className="text-gray-700 mb-4">{description}</p>
         {index < 3 && (
           <a
