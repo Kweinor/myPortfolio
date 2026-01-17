@@ -7,7 +7,7 @@ function NavBar({darkMode, setDarkMode, contact}) {
   return (
 <div className="fixed top-3 z-50 items-center justify-between hidden lg:flex w-full">
 <div className={`flex pt-3 max-w-7xl backdrop-blur-xl ${darkMode? "bg-[#1f2937] text-gray-600" : "bg-black/10"}  px-10 rounded-4xl text-blue-950 py-3 mx-auto w-full justify-between items-center`}>
-                  <h1 className={`font-bold allura-font text-3xl ${darkMode? "text-[#503f82]" : "text-[#4f46e5]"} `}>tk<span className={`${darkMode? "text-[#050014]" : "text-[#1f2937]"}`}>quaynor</span>.</h1>
+                  <h1 className={`font-bold arvo-font text-3xl ${darkMode? "text-[#503f82]" : "text-[#4f46e5]"} `}>tk<span className={`${darkMode? "text-[#050014]" : "text-[#1f2937]"}`}>quaynor</span>.</h1>
       <div className='flex  gap-6'>
         <a href='#home' className='scroll-smooth cursor-pointer hover:bg-black/30 hover:text-white py-2 px-4 rounded-3xl transition'>Home</a>
         <a href='#services' className='scroll-smooth cursor-pointer hover:bg-black/30 hover:text-white py-2 px-4 rounded-3xl transition'>Service</a>

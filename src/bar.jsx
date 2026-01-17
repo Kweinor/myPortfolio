@@ -7,11 +7,11 @@ function MenuBar({darkMode, setDarkMode}) {
     const [open, setOpen] = useState(false);
   
     return(
-       <div className={`fixed top-0 left-0 right-0 z-50 ${darkMode?  "bg-[#050014]/70": "bg-amber-50/70"}  backdrop-blur-lg py-4 flex md:hidden justify-between items-center px-5`}>
+       <div className={`fixed top-0 left-0 right-0 z-50 ${darkMode?  "bg-[#050014]/70": "bg-[#f8f5ee]/70"}  backdrop-blur-lg py-4 flex md:hidden justify-between items-center px-5`}>
       
       {open && <MobileMenu setOpen={setOpen}/>}
           <div>
-            <h1 className='font-bold allura-font text-xl text-blue-950'>tkquaynor</h1>
+                  <h1 className={`font-bold arvo-font text-xl ${darkMode? "text-[#503f82]" : "text-[#4f46e5]"} `}>tk<span className={`${darkMode? "text-[#050014]" : "text-[#1f2937]"}`}>quaynor</span>.</h1>
           </div>
           <div className='flex justify-between items-center gap-3'>
            <button

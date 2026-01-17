@@ -17,6 +17,9 @@
   }
 }
 
+.arvo-font {
+  font-family: 'Arvo', serif;
+}
 .animate-scroll {
   display: flex;
   width: max-content;
